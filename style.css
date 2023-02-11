@@ -1,9 +1,4 @@
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-header {
+header { /* customized header to have cursive text, centered text, padding to keep the containers looking connected */
   font-family: cursive;
   color:#ccbcac;
   background-color: #56322e;
@@ -14,11 +9,11 @@ header {
 
 
 
-img {
+img { /* made the image a circle instead of a square */
   border-radius: 200px;
 }
 
-main {
+main { /*stylized main with center text, color of text, background color, and font style */
   text-align: center;
   color:#512c1c;
   font-family: cursive;
@@ -26,14 +21,14 @@ main {
 }
 
 
-ul {
+ul { /* fixed the bullets from staying on the left side*/
   display: inline-block;
 }
 ol {
-display: inline-block;
+display: inline-block;/* fixed the bullets from staying on the left side*/
 }
 
-footer {
+footer { /*stylized main with center text, color of text, background color, and font style, font size to fit the footing container and padding */
   font-family: cursive;
   color:#ccbcac;
   background-color: #56322e;
@@ -41,3 +36,14 @@ footer {
   padding: 2px;
   font-size: 10px;
 }
+
+hr { /* customized border to be white inset and 3px size  */
+  border-width: 3px;
+  border-color: #ffffff;
+  
+}
+/* customized the link property colors */
+a:link    { color: #09caf1};
+a:visited { color: #b15fdd   };
+a:hover   { color: #ba3b41 };
+a:active  { color: #e4bec5  };
