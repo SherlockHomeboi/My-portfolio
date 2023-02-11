@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  font-family: cursive;
+  color:#ccbcac;
+  background-color: #56322e;
+  text-align: center;
+  padding: 2px;
+  margin:auto
+}
+
+
+
+img {
+  border-radius: 200px;
+}
+
+main {
+  text-align: center;
+  color:#512c1c;
+  font-family: cursive;
+  background-color:#b9b1a7;
+}
+
+
+ul {
+  display: inline-block;
+}
+ol {
+display: inline-block;
+}
+
+footer {
+  font-family: cursive;
+  color:#ccbcac;
+  background-color: #56322e;
+  text-align: center;
+  padding: 2px;
+  font-size: 10px;
+}
